@@ -1,8 +1,11 @@
 
 body {
-    background-color: aliceblue;
-    
-    
+    font-family: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    min-height: 100%;    
 }
 
 h1 {
@@ -20,7 +23,39 @@ h2 {
     border-radius: 3px;
 }
 
-#Header {
-    background-image: url("../public/img/bg3.jpeg");
-    background-color: bisque;
+ul, ol {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+}
+
+header img {
+    width: 100%;
+    
+}
+
+.row    {
+    display: flex;
+    gap: 24px;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.column img {
+    border-radius: 3px;
+    width: 100%;
+    max-width: auto;
+    height: auto;
+    display: block;
+}
+
+
+.column {
+    flex: 1 1 45%;
+}
+
+.column img {
+    height: 300px; 
+    object-fit: cover;
+    width: 100%;
 }
