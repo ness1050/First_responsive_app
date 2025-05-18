@@ -1,40 +1,26 @@
+
 body {
-    background-color: white;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    background-image: url("../public/img/caffe.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    min-height: auto;
-
-}
-
-header {
-    background-image: url("../public/img/bg1.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
-    color: rgb(18, 43, 65);
-    height: 100%;
-    width: 100%;
-}
-
-main {
-    color: bisque;
-}
-
-a {
-    color: white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: center;
+    background-color: aliceblue;
+    
     
 }
 
-footer {
-    background-color: black;
-    color: white;
-    margin-top: 100%;
-    align-items: center;
+h1 {
+    color: rgb(209, 15, 15);
+    font-weight: 700;
+    size: 40px;
+    line-height: 100%;
+}
+
+h2 {
+    background-color: rgba(228, 171, 171, 0.884);
+    padding: 24px;
+    gap :10px;
+    width: fill;
+    border-radius: 3px;
+}
+
+#Header {
+    background-image: url("../public/img/bg3.jpeg");
+    background-color: bisque;
 }
